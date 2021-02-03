@@ -76,6 +76,7 @@ fun MyTopAppBar(scaffoldState: ScaffoldState) {
         navigationIcon = {
             Icon(
                 Icons.Default.Menu,
+                null,
                 modifier = Modifier.clickable(onClick = {
                     scaffoldState.drawerState.open()
                 })
